@@ -55,6 +55,7 @@ lerna-debug.log*
 /yummy-radar-frontend/.env
 /yummy-radar-frontend/.env.*.local
 /yummy-radar-frontend/*.local
+/docs/
 
 # Testing & coverage
 /yummy-radar-frontend/coverage/

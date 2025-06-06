@@ -1,53 +1,49 @@
 # ========================
 # Java & Spring Boot
 # ========================
-/target/
+/yummy-radar-backend/target/
 *.class
 *.jar
 *.war
 *.log
 
 # Application config & environment
-src/main/resources/application.yml
-.env
+/yummy-radar-backend/src/main/resources/application.yml
+/yummy-radar-backend/.env
 
 # Maven
-.mvn/
-!/.mvn/wrapper/maven-wrapper.jar
-mvnw
-mvnw.cmd
+/yummy-radar-backend/.mvn/
+!yummy-radar-backend/.mvn/wrapper/maven-wrapper.jar
+/yummy-radar-backend/mvnw
+/yummy-radar-backend/mvnw.cmd
 
 # Spring Tool Suite
-.apt_generated/
-.classpath
-.factorypath
-.project
-.settings/
-.springBeans/
-.sts4-cache/
+/yummy-radar-backend/.apt_generated/
+/yummy-radar-backend/.classpath
+/yummy-radar-backend/.factorypath
+/yummy-radar-backend/.project
+/yummy-radar-backend/.settings/
+/yummy-radar-backend/.springBeans/
+/yummy-radar-backend/.sts4-cache/
 
 # NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
+/yummy-radar-backend/nbproject/private/
+/yummy-radar-backend/nbbuild/
+/yummy-radar-backend/dist/
+/yummy-radar-backend/nbdist/
+/yummy-radar-backend/.nb-gradle/
+/yummy-radar-backend/build/
 
 # ========================
 # Node.js / React (Frontend)
 # ========================
-
-# Dependency directories
-node_modules/
-
-# Build output
-dist/
-dist-ssr/
-.vite/
+/yummy-radar-frontend/node_modules/
+/yummy-radar-frontend/dist/
+/yummy-radar-frontend/dist-ssr/
+/yummy-radar-frontend/.vite/
 
 # Logs
-logs/
+/yummy-radar-frontend/logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -56,12 +52,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Environment variables
-.env
-.env.*.local
-*.local
+/yummy-radar-frontend/.env
+/yummy-radar-frontend/.env.*.local
+/yummy-radar-frontend/*.local
 
 # Testing & coverage
-coverage/
+/yummy-radar-frontend/coverage/
 
 # ========================
 # Editors & IDEs
